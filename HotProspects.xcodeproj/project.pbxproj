@@ -3,23 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C7EDDAD626F440080001D2D9 /* HotProspectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAD526F440080001D2D9 /* HotProspectsApp.swift */; };
-		C7EDDAD826F440080001D2D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAD726F440080001D2D9 /* ContentView.swift */; };
+		C7EDDAD826F440080001D2D9 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAD726F440080001D2D9 /* MainAppView.swift */; };
 		C7EDDADA26F4400B0001D2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EDDAD926F4400B0001D2D9 /* Assets.xcassets */; };
 		C7EDDADD26F4400B0001D2D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EDDADC26F4400B0001D2D9 /* Preview Assets.xcassets */; };
+		C7EDDAE726F59BA30001D2D9 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAE626F59BA30001D2D9 /* ProspectsView.swift */; };
+		C7EDDAE926F59BB70001D2D9 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAE826F59BB70001D2D9 /* MeView.swift */; };
+		C7EDDAEB26F59E2F0001D2D9 /* ProspectTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAEA26F59E2F0001D2D9 /* ProspectTabItem.swift */; };
+		C7EDDAED26F5A11A0001D2D9 /* ProspectsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAEC26F5A11A0001D2D9 /* ProspectsStore.swift */; };
+		C7EDDAF126F5B4B60001D2D9 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAF026F5B4B60001D2D9 /* Prospect.swift */; };
+		C7EDDAF326F688410001D2D9 /* MyDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAF226F688410001D2D9 /* MyDataViewModel.swift */; };
+		C7EDDAF626F68D040001D2D9 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAF526F68D040001D2D9 /* QRCodeGenerator.swift */; };
+		C7EDDAF826F691510001D2D9 /* QRCodeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAF726F691510001D2D9 /* QRCodeViewer.swift */; };
+		C7EDDAFD26F69DB80001D2D9 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = C7EDDAFC26F69DB80001D2D9 /* CodeScanner */; };
+		C7EDDAFF26F6E2000001D2D9 /* ProspectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAFE26F6E2000001D2D9 /* ProspectService.swift */; };
+		C7EDDB0126F6EFAC0001D2D9 /* ProspectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDB0026F6EFAC0001D2D9 /* ProspectRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7EDDAD226F440080001D2D9 /* HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotProspects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EDDAD526F440080001D2D9 /* HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsApp.swift; sourceTree = "<group>"; };
-		C7EDDAD726F440080001D2D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7EDDAD726F440080001D2D9 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
 		C7EDDAD926F4400B0001D2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7EDDADC26F4400B0001D2D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7EDDADE26F4400B0001D2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EDDAE626F59BA30001D2D9 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		C7EDDAE826F59BB70001D2D9 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		C7EDDAEA26F59E2F0001D2D9 /* ProspectTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectTabItem.swift; sourceTree = "<group>"; };
+		C7EDDAEC26F5A11A0001D2D9 /* ProspectsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsStore.swift; sourceTree = "<group>"; };
+		C7EDDAF026F5B4B60001D2D9 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		C7EDDAF226F688410001D2D9 /* MyDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataViewModel.swift; sourceTree = "<group>"; };
+		C7EDDAF526F68D040001D2D9 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		C7EDDAF726F691510001D2D9 /* QRCodeViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewer.swift; sourceTree = "<group>"; };
+		C7EDDAFE26F6E2000001D2D9 /* ProspectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectService.swift; sourceTree = "<group>"; };
+		C7EDDB0026F6EFAC0001D2D9 /* ProspectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7EDDAFD26F69DB80001D2D9 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +74,11 @@
 		C7EDDAD426F440080001D2D9 /* HotProspects */ = {
 			isa = PBXGroup;
 			children = (
+				C7EDDAF426F68C6D0001D2D9 /* QRCode */,
+				C7EDDAE526F59B670001D2D9 /* MyData */,
+				C7EDDAE426F59B590001D2D9 /* Prospects */,
 				C7EDDAD526F440080001D2D9 /* HotProspectsApp.swift */,
-				C7EDDAD726F440080001D2D9 /* ContentView.swift */,
+				C7EDDAD726F440080001D2D9 /* MainAppView.swift */,
 				C7EDDAD926F4400B0001D2D9 /* Assets.xcassets */,
 				C7EDDADE26F4400B0001D2D9 /* Info.plist */,
 				C7EDDADB26F4400B0001D2D9 /* Preview Content */,
@@ -67,6 +92,37 @@
 				C7EDDADC26F4400B0001D2D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7EDDAE426F59B590001D2D9 /* Prospects */ = {
+			isa = PBXGroup;
+			children = (
+				C7EDDAE626F59BA30001D2D9 /* ProspectsView.swift */,
+				C7EDDAEA26F59E2F0001D2D9 /* ProspectTabItem.swift */,
+				C7EDDAEC26F5A11A0001D2D9 /* ProspectsStore.swift */,
+				C7EDDAF026F5B4B60001D2D9 /* Prospect.swift */,
+				C7EDDAFE26F6E2000001D2D9 /* ProspectService.swift */,
+				C7EDDB0026F6EFAC0001D2D9 /* ProspectRow.swift */,
+			);
+			path = Prospects;
+			sourceTree = "<group>";
+		};
+		C7EDDAE526F59B670001D2D9 /* MyData */ = {
+			isa = PBXGroup;
+			children = (
+				C7EDDAE826F59BB70001D2D9 /* MeView.swift */,
+				C7EDDAF226F688410001D2D9 /* MyDataViewModel.swift */,
+			);
+			path = MyData;
+			sourceTree = "<group>";
+		};
+		C7EDDAF426F68C6D0001D2D9 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				C7EDDAF526F68D040001D2D9 /* QRCodeGenerator.swift */,
+				C7EDDAF726F691510001D2D9 /* QRCodeViewer.swift */,
+			);
+			path = QRCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +141,9 @@
 			dependencies = (
 			);
 			name = HotProspects;
+			packageProductDependencies = (
+				C7EDDAFC26F69DB80001D2D9 /* CodeScanner */,
+			);
 			productName = HotProspects;
 			productReference = C7EDDAD226F440080001D2D9 /* HotProspects.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +171,9 @@
 				Base,
 			);
 			mainGroup = C7EDDAC926F440080001D2D9;
+			packageReferences = (
+				C7EDDAFB26F69DB80001D2D9 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = C7EDDAD326F440080001D2D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7EDDAD826F440080001D2D9 /* ContentView.swift in Sources */,
+				C7EDDAF826F691510001D2D9 /* QRCodeViewer.swift in Sources */,
+				C7EDDAF126F5B4B60001D2D9 /* Prospect.swift in Sources */,
+				C7EDDAE926F59BB70001D2D9 /* MeView.swift in Sources */,
+				C7EDDAED26F5A11A0001D2D9 /* ProspectsStore.swift in Sources */,
+				C7EDDB0126F6EFAC0001D2D9 /* ProspectRow.swift in Sources */,
+				C7EDDAF326F688410001D2D9 /* MyDataViewModel.swift in Sources */,
+				C7EDDAFF26F6E2000001D2D9 /* ProspectService.swift in Sources */,
+				C7EDDAF626F68D040001D2D9 /* QRCodeGenerator.swift in Sources */,
+				C7EDDAE726F59BA30001D2D9 /* ProspectsView.swift in Sources */,
+				C7EDDAEB26F59E2F0001D2D9 /* ProspectTabItem.swift in Sources */,
+				C7EDDAD826F440080001D2D9 /* MainAppView.swift in Sources */,
 				C7EDDAD626F440080001D2D9 /* HotProspectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +400,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7EDDAFB26F69DB80001D2D9 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chadsmith12/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7EDDAFC26F69DB80001D2D9 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7EDDAFB26F69DB80001D2D9 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C7EDDACA26F440080001D2D9 /* Project object */;
 }
