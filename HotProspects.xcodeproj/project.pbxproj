@@ -22,6 +22,8 @@
 		C7EDDAFD26F69DB80001D2D9 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = C7EDDAFC26F69DB80001D2D9 /* CodeScanner */; };
 		C7EDDAFF26F6E2000001D2D9 /* ProspectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDAFE26F6E2000001D2D9 /* ProspectService.swift */; };
 		C7EDDB0126F6EFAC0001D2D9 /* ProspectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDB0026F6EFAC0001D2D9 /* ProspectRow.swift */; };
+		C7EDDB0426F7C3D00001D2D9 /* MailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDB0326F7C3D00001D2D9 /* MailData.swift */; };
+		C7EDDB0626F7C43A0001D2D9 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDDB0526F7C43A0001D2D9 /* MailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		C7EDDAF726F691510001D2D9 /* QRCodeViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewer.swift; sourceTree = "<group>"; };
 		C7EDDAFE26F6E2000001D2D9 /* ProspectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectService.swift; sourceTree = "<group>"; };
 		C7EDDB0026F6EFAC0001D2D9 /* ProspectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectRow.swift; sourceTree = "<group>"; };
+		C7EDDB0326F7C3D00001D2D9 /* MailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailData.swift; sourceTree = "<group>"; };
+		C7EDDB0526F7C43A0001D2D9 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		C7EDDAD426F440080001D2D9 /* HotProspects */ = {
 			isa = PBXGroup;
 			children = (
+				C7EDDB0226F7C2660001D2D9 /* Mail */,
 				C7EDDAF426F68C6D0001D2D9 /* QRCode */,
 				C7EDDAE526F59B670001D2D9 /* MyData */,
 				C7EDDAE426F59B590001D2D9 /* Prospects */,
@@ -123,6 +128,15 @@
 				C7EDDAF726F691510001D2D9 /* QRCodeViewer.swift */,
 			);
 			path = QRCode;
+			sourceTree = "<group>";
+		};
+		C7EDDB0226F7C2660001D2D9 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				C7EDDB0326F7C3D00001D2D9 /* MailData.swift */,
+				C7EDDB0526F7C43A0001D2D9 /* MailView.swift */,
+			);
+			path = Mail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +218,8 @@
 				C7EDDAF126F5B4B60001D2D9 /* Prospect.swift in Sources */,
 				C7EDDAE926F59BB70001D2D9 /* MeView.swift in Sources */,
 				C7EDDAED26F5A11A0001D2D9 /* ProspectsStore.swift in Sources */,
+				C7EDDB0426F7C3D00001D2D9 /* MailData.swift in Sources */,
+				C7EDDB0626F7C43A0001D2D9 /* MailView.swift in Sources */,
 				C7EDDB0126F6EFAC0001D2D9 /* ProspectRow.swift in Sources */,
 				C7EDDAF326F688410001D2D9 /* MyDataViewModel.swift in Sources */,
 				C7EDDAFF26F6E2000001D2D9 /* ProspectService.swift in Sources */,

@@ -16,4 +16,11 @@ struct Prospect : Identifiable, Codable {
     mutating func toggleContacted() {
         self.isContacted.toggle()
     }
+    
+    var mailData: MailComposeData {
+        let subject = "Hello \(self.name)"
+        let recipient = [self.email]
+        
+        return MailComposeData(subject: subject, recipients: recipient, message: "", attachments: nil)
+    }
 }

@@ -20,6 +20,7 @@ class ProspectsStore : ObservableObject {
     @Published var isShowingReminderSheet = false
     @Published var isShowingDeletion = false
     @Published var selectedFilter = FilterType.none
+    @Published var isShowingMail = false
     
     init() {
         prospectService = ProspectService()

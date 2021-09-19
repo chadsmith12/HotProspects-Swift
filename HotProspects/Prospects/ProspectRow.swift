@@ -26,12 +26,28 @@ struct ProspectRow: View {
                 Button("Remind Me") {
                     self.prospectStore.isShowingReminderSheet = true
                 }
+                Button("Contact \(prospect.name)") {
+                    self.prospectStore.isShowingMail = true
+                }
             }
         }
         .actionSheet(isPresented: $prospectStore.isShowingReminderSheet) {
             ActionSheet(title: Text("Schedule Reminder"), message: Text("Are you sure you want to schedule a reminder?"), buttons: [.default(Text("Schedule Reminder"), action: {
                 prospectStore.scheduleNotificationReminder(prospect: prospect)
             }), .cancel()])
+        }
+        .sheet(isPresented: $prospectStore.isShowingMail) {
+            MailView(data: .constant(prospect.mailData)) { result in
+                switch result {
+                case .success(let result):
+                    if result == .sent {
+                        self.prospectStore.toggleContacted(for: prospect)
+                    }
+                    break
+                case .failure(_):
+                    break
+                }
+            }
         }
     }
 }
